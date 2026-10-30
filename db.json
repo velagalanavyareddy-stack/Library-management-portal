@@ -1,0 +1,107 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Java Programming",
+      "author": "James Gosling",
+      "category": "Programming",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "status": "Available"
+    },
+    {
+      "title": "web-development",
+      "author": "navya",
+      "category": "programming",
+      "status": "Issued",
+      "id": "eJX4Y3X"
+    }
+  ],
+  "members": [
+    {
+      "id": "1",
+      "name": "Ravi Kumar",
+      "email": "ravi@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "2",
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "9876501234"
+    },
+    {
+      "name": "Navya Velagala",
+      "email": "velagalnavyareddy@gmail.com",
+      "phone": "7069828042",
+      "id": "vOAJadE"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "bookId": "3",
+      "memberId": "1",
+      "issueDate": "2026-10-25",
+      "returnDate": "2026-10-30",
+      "status": "Returned",
+      "book": {
+        "id": "3",
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "category": "Fiction",
+        "status": "Issued"
+      },
+      "member": {
+        "id": "1",
+        "name": "Ravi Kumar",
+        "email": "ravi@example.com",
+        "phone": "9876543210"
+      }
+    },
+    {
+      "bookId": "2",
+      "memberId": "1",
+      "issueDate": "2026-10-30",
+      "returnDate": "",
+      "status": "Issued",
+      "id": "VGWGClv"
+    },
+    {
+      "bookId": "1",
+      "memberId": "1",
+      "issueDate": "2026-10-30",
+      "returnDate": "",
+      "status": "Issued",
+      "id": "GMByKWI"
+    },
+    {
+      "bookId": "1",
+      "memberId": "1",
+      "issueDate": "2026-10-30",
+      "returnDate": "",
+      "status": "Issued",
+      "id": "GQCuBy4"
+    },
+    {
+      "bookId": "eJX4Y3X",
+      "memberId": "vOAJadE",
+      "issueDate": "2026-10-30",
+      "returnDate": "",
+      "status": "Issued",
+      "id": "OXcVo0X"
+    }
+  ]
+}
